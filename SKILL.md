@@ -1,9 +1,9 @@
 ---
-name: ads-execution-money
+name: execution-ads-money
 description: Use this when the founder wants Meta ads for their own offer and has not set the money yet, or wants to change it. They say "Set up my ads money." It connects to their own Meta ad account through the official Meta Ads connector, reads every account their login can see, asks 3 numbers, and writes squad/ads-money-card.md, the most 1 booked call may cost, the cap and the daily number. It spends nothing and builds nothing.
 ---
 
-# Ads Execution Money · Agent 10
+# execution-ads-money · Agent 10
 
 1 output: `squad/ads-money-card.md`. The founder's price becomes the most 1 booked call may cost, and
 the month they can lose becomes the cap.
@@ -33,11 +33,11 @@ Every number on the card comes off `squad/business.md`, a number the founder typ
 1. Open `references/the-account.md`, `references/the-numbers.md` and
    `references/what-runs-without-you.md`. Any missing: stop and ask for the whole folder again.
 2. Read `squad/business.md`. No file, or no number on line 1 under `## PRICE`: stop with 1 line,
-   "Run Agent 1 first: /the-winning-offer."
+   "Run Agent 1 first: /execution-genesis-offer."
 3. THE SENTENCE sells credit, a job, housing, or a social issue, election or politics: 1 line,
    "Meta treats this as a special ad category. This agent does not build those." Stop.
 4. Read the last line of `squad/sales.md`, `Book: <url>. Pay: <url>.` No file or no `Book:` line:
-   stop with 1 line, "Run Agent 3 first: /the-close."
+   stop with 1 line, "Run Agent 3 first: /execution-genesis-close."
 5. **The account read.** Call `ads_get_ad_accounts`. No Meta Ads tools loaded: print the connect
    steps from `references/the-account.md` section 1 and stop. Print 1 line for every account: name,
    enabled (`is_ads_mcp_enabled`), queryable (`is_queryable`), status (`account_status`), payment

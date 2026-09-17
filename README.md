@@ -1,4 +1,4 @@
-# Ads Execution Money · Agent 10
+# execution-ads-money · Agent 10
 
 This agent is a base. Once you have done it your way, tell your squad "update the agent to do it
 like this."
