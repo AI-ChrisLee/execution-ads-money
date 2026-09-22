@@ -6,6 +6,15 @@ like this."
 The first of 3 ads agents. It connects to your own Meta ad account and turns your price into a
 number: the most 1 booked call may cost you, your cap, and your daily number. It spends nothing.
 
+## What lands on the card
+
+`squad/ads-money-card.md`, every line with its math shown and where the number came from: your price
+as the first payment, what delivering 1 client costs, the gross profit, the most to win 1 client
+(gross profit divided by 6), your calls per close, the most 1 booked call may cost, the cap for the
+month, the daily number, and how many booked calls the month buys at that ceiling. Meta's own
+minimums are applied as floors and named when they are. Agent 12 reads this card on every build and
+every read.
+
 ## Before you start
 
 - Agent 1 has written `squad/business.md`, with your price.
@@ -25,8 +34,7 @@ your business. Then quit and reopen Claude Code.
 is enabled and queryable, with Meta's reason word for word when it is not. It reads your price off
 `squad/business.md`. Type your own numbers with the line when you have them (what delivering 1
 client costs, how many calls it takes you to close 1, the month), or it works from the price alone
-and says so. It shows every line of the math and writes `squad/ads-money-card.md`: the most 1
-booked call may cost, the cap, the daily number.
+and says so. It shows every line of the math and writes the card.
 
 Next: Agent 11, "Make my ads."
 
