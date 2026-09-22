@@ -27,11 +27,11 @@ Claude account picks up the connector. No developer app, no key to paste.
 | `account_status` | status | (printed) |
 | `has_payment_method` | payment method | never here; the launch card says to add one before go |
 | `currency` | the card's currency | |
-| `min_daily_budget_cents` | Meta's minimum a day | the daily number is under it (the card asks for a bigger number for the month) |
+| `min_daily_budget_cents` | Meta's minimum a day | never; a daily number under it becomes Meta's minimum, and the card says so |
 
 **The smallest cap.** Meta's Marketing API campaign reference (read 2026-09-16) gives `spend_cap` "a
-minimum value of $100 USD (or approximate local equivalent)". A month under that gets no card: print
-"Meta's smallest campaign cap is $100." and ask for a bigger number for the month.
+minimum value of $100 USD (or approximate local equivalent)". A month under that: the cap is $100,
+and the card says so.
 
 An account that is not both enabled and queryable is never used. No call here changes either flag.
 Print the reasons as Meta wrote them and add nothing about why it happened.

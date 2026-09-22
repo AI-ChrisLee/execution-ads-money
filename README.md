@@ -9,7 +9,6 @@ number: the most 1 booked call may cost you, your cap, and your daily number. It
 ## Before you start
 
 - Agent 1 has written `squad/business.md`, with your price.
-- Agent 3 has written `squad/sales.md`, with your booking link on its last line.
 - A Meta ad account.
 
 ## Install
@@ -23,10 +22,11 @@ your business. Then quit and reopen Claude Code.
 ## Run it
 
 **"Set up my ads money."** It reads every ad account your login can see and prints whether each one
-is enabled and queryable, with Meta's reason word for word when it is not. It asks 3 numbers: what
-delivering 1 client costs, how many calls it takes you to close 1, and the most you can lose on ads
-this month ($100 at least). It shows every line of the math and writes `squad/ads-money-card.md`:
-the most 1 booked call may cost, the cap, the daily number.
+is enabled and queryable, with Meta's reason word for word when it is not. It reads your price off
+`squad/business.md`. Type your own numbers with the line when you have them (what delivering 1
+client costs, how many calls it takes you to close 1, the month), or it works from the price alone
+and says so. It shows every line of the math and writes `squad/ads-money-card.md`: the most 1
+booked call may cost, the cap, the daily number.
 
 Next: Agent 11, "Make my ads."
 
